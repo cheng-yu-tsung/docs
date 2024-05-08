@@ -16,15 +16,15 @@
 
 ## 筆記連接
 
-記錄學習中的筆記
+[記錄學習中的筆記](https://github.com/cheng-yu-tsung/docs)
 
--   [blender][blender]
--   [javascript][javascript]
--   [laravel][laravel]
--   [next][next]
--   [react][react]
--   [vue][vue]
--   [健身][wortkout]
+- [blender][blender]
+- [javascript][javascript]
+- [laravel][laravel]
+- [next][next]
+- [react][react]
+- [vue][vue]
+- [健身][wortkout]
 
 [blender]: ./docs/blender/README
 [javascript]: ./docs/javascript/README
