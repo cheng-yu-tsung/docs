@@ -14,7 +14,7 @@ Action 優化，自動管理數據提交的過程，數據提交需要經過以�
 1.  errors 錯誤處理
 1.  updates 資料更新
 
-```ts
+```javascript
 import { useActionState } from "react";
 
 function ActionForm(){
@@ -51,7 +51,7 @@ function ActionForm(){
 
 會讀取所在\<from>的狀態，不需要將 props 傳遞到組件，可以透過 Context 完成
 
-```ts
+```javascript
 import { useFormStatus } from "react-dom";
 function SubmitButton() {
     //pending:等待狀態 預設false
@@ -70,22 +70,22 @@ function SubmitButton() {
 
 在等待異部結果時，可以先將化用樂觀更新，有結果後再根據結果更新狀態
 
-```ts
+```javascript
 import { useOptimistic } from "react";
 
 function OptimisticUpdate() {
-    // state:當前狀態，第一次渲染時為初始值 initialState
-    // action:執行操作，會觸發fn(oldValue,newValue)實行
-    const [state, action] = useOptimistic(initialState, fn);
+  // state:當前狀態，第一次渲染時為初始值 initialState
+  // action:執行操作，會觸發fn(oldValue,newValue)實行
+  const [state, action] = useOptimistic(initialState, fn);
 
-    const [optimistic, OptimisticFn] = useOptimistic(
-        state,
-        //previousState:更新前狀態
-        //optimisticValue:樂觀更新的值
-        (previousState, optimisticValue) => {
-            //執行動作
-        }
-    );
+  const [optimistic, OptimisticFn] = useOptimistic(
+    state,
+    //previousState:更新前狀態
+    //optimisticValue:樂觀更新的值
+    (previousState, optimisticValue) => {
+      //執行動作
+    }
+  );
 }
 ```
 
@@ -97,31 +97,31 @@ function OptimisticUpdate() {
 
 use 可以用來讀取資源(promise 或 context)得到值
 
-```ts
+```javascript
 import { use } from "react";
 
 function Use({ promise }) {
-    //value:值
-    //resource:可以為 promise 或是 context
-    const value = use(resource);
+  //value:值
+  //resource:可以為 promise 或是 context
+  const value = use(resource);
 
-    const comments = use(promise); //讀取promise
-    const theme = use(ThemeContext); //讀取context
-    return (
-        <div style={{ color: theme.color }}>
-            {comments.map((comment) => (
-                <p key={comment.id}>{comment}</p>
-            ))}
-        </div>
-    );
+  const comments = use(promise); //讀取promise
+  const theme = use(ThemeContext); //讀取context
+  return (
+    <div style={{ color: theme.color }}>
+      {comments.map((comment) => (
+        <p key={comment.id}>{comment}</p>
+      ))}
+    </div>
+  );
 }
 function Page({ promise }) {
-    //use 尚未支援渲染中創建的promise 所以需要Suspense來緩存
-    return (
-        <Suspense fallback={<div>Loading...</div>}>
-            <Use promise={promise} />
-        </Suspense>
-    );
+  //use 尚未支援渲染中創建的promise 所以需要Suspense來緩存
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Use promise={promise} />
+    </Suspense>
+  );
 }
 ```
 
@@ -129,10 +129,10 @@ function Page({ promise }) {
 
 > ## ref as a prop
 
-```ts
+```javascript
 //過去用法 forwardRef
 function MyInput({ placeholder, ref }) {
-    return <input placeholder={placeholder} ref={ref} />;
+  return <input placeholder={placeholder} ref={ref} />;
 }
 //ref 可當成 prop 傳遞
 <MyInput ref={ref} />;
@@ -144,22 +144,22 @@ function MyInput({ placeholder, ref }) {
 //過去用法 ThemeContext.Provider
 const ThemeContext = createContext("");
 function App({ children }) {
-    //Context 可以直接當成provider使用
-    return <ThemeContext value="dark">{children}</ThemeContext>;
+  //Context 可以直接當成provider使用
+  return <ThemeContext value="dark">{children}</ThemeContext>;
 }
 ```
 
 > ## Cleanup functions for refs
 
-```ts
+```javascript
 //過去當卸載ref 時會設為null
 <input
-    ref={(ref) => {
-        //新增一個清理函數
-        return () => {
-            // ref清理
-        };
-    }}
+  ref={(ref) => {
+    //新增一個清理函數
+    return () => {
+      // ref清理
+    };
+  }}
 />
 ```
 
