@@ -1,4 +1,4 @@
-# [React 19 的新功能](https://react.dev/blog/2024/04/25/react-19)
+# [React 19 的新功能](https://react.dev/blog/2024/12/05/react-19)
 
 ---
 
