@@ -43,7 +43,7 @@
 | 模板模式   | Template | 定義一個邏輯的框架，允許子類在不修改結構下重寫邏輯的特定步驟   |
 | 訪問者模式 | Visitor  | 將邏輯與其作用物件隔離開來                                     |
 
-> ## 參考資料
+### 參考資料
 
 - [菜鳥教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
 - [圖說設計模式](https://design-patterns.readthedocs.io/zh-cn/latest/index.html)

@@ -1,6 +1,6 @@
 # 網站說明
 
-> ## 主用技術和工具
+## 主用技術和工具
 
 ![Skills](https://skillicons.dev/icons?i=html,css,js,ts,php,py,dart)
 
@@ -10,7 +10,7 @@
 <img src='https://avatars.githubusercontent.com/u/5406849?s=48' alt="pixijs" style=" border-radius: 10px; margin-left:4px ;" />
 <img src='https://avatars.githubusercontent.com/u/47222401?s=48&v=4' alt="flame" style=" background-color: #242938; border-radius: 10px; margin-left:0 2px ;" />
 
-> ## 網站介紹
+## 網站介紹
 
 | 分類                               | 應用網站         | 後臺網站         | 應用程式       |
 | ---------------------------------- | ---------------- | ---------------- | -------------- |
@@ -24,7 +24,7 @@
 
 ---
 
-> ## 筆記連接
+## 筆記連接
 
 記錄學習中的筆記
 

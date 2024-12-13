@@ -2,7 +2,7 @@
 
 [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver)用來觀察元素是否可見
 
-> ## API 用法
+## API 用法
 
 基本步驟
 
@@ -11,7 +11,7 @@
 3. 元素<mark>相交/離開</mark> 執行 callback function
 4. 清除觀察器
 
-> ## 建立觀察器
+## 建立觀察器
 
 ```ts
 let observer: IntersectionObserver | null = null;
@@ -51,7 +51,7 @@ elArray.forEach((el) => {
 });
 ```
 
-> ## 常用情況
+## 常用情況
 
 在需要元素出現時去直接想要的功能
 
@@ -59,7 +59,7 @@ elArray.forEach((el) => {
 2. lazy load
 3. 無限滾動
 
-> ## 清除觀察器
+## 清除觀察器
 
 ```ts
 const observer = new IntersectionObserver(callback, option);
@@ -71,7 +71,7 @@ observer.unobserve(el);
 observer.disconnect();
 ```
 
-> ## 參考資料
+## 參考資料
 
 - [MDN-IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver)
 
