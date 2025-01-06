@@ -2,9 +2,9 @@
 
 ---
 
-# 增加三個 HOOK 來完成 Action
+## 增加三個 HOOK 來完成 Action
 
-## useActionState
+### useActionState
 
 <mark>[useActionState](https://react.dev/reference/react/useActionState)讓 Action 實行起來更加容易</mark>
 
@@ -45,7 +45,7 @@ function ActionForm(){
 }
 ```
 
-## useFormStatus
+### useFormStatus
 
 <mark>[useFormStatus](https://react.dev/reference/react-dom/hooks/useFormStatus) 讓表單就像 Context 一樣</mark>
 
@@ -64,7 +64,7 @@ function SubmitButton() {
 }
 ```
 
-## useOptimistic
+### useOptimistic
 
 <mark>[useOptimistic](https://react.dev/reference/react/useOptimistic)產生結果，先更新畫面</mark>
 
@@ -89,9 +89,9 @@ function OptimisticUpdate() {
 }
 ```
 
-# 新的 API
+## 新的 API
 
-## use
+### use
 
 <mark>[use](https://react.dev/reference/react/use) 讀取資料更容易</mark>
 
@@ -124,10 +124,7 @@ function Page({ promise }) {
   );
 }
 ```
-
-# 優化
-
-## ref as a prop
+### ref as a prop
 
 ```javascript
 //過去用法 forwardRef
@@ -138,7 +135,7 @@ function MyInput({ placeholder, ref }) {
 <MyInput ref={ref} />;
 ```
 
-## Context as a provider
+### Context as a provider
 
 ```ts
 //過去用法 ThemeContext.Provider
@@ -149,7 +146,7 @@ function App({ children }) {
 }
 ```
 
-## Cleanup functions for refs
+### Cleanup functions for refs
 
 ```javascript
 //過去當卸載ref 時會設為null
@@ -163,9 +160,9 @@ function App({ children }) {
 />
 ```
 
-# 更多新的支援
+## 更多新的支援
 
-## 新的支援
+### 新的支援
 
 1. Support for Document Metadata
 1. Support for stylesheets
