@@ -1,4 +1,4 @@
-color habamax
+ccolor habamax
 syntax on
 
 set number
@@ -6,24 +6,32 @@ set hlsearch
 set nobackup
 set autoindent
 set ignorecase
+set noeb
 
 set tabstop=2
 set shiftwidth=2
 set clipboard=unnamed
+set showmatch
 
-cnoreabbrev Tab Tabularize
+cnoreabbrev Tab Tabularize 
 
+nnoremap ` .
 nnoremap - $
 nnoremap \\ o<Esc>
 nnoremap <BS> kdd
+nnoremap <Tab> >> 
+nnoremap <S-Tab> << 
 nnoremap <Space> <C-w>
 nnoremap <Space>n :vnew<CR>
-nnoremap `` :NERDTreeToggle<CR>
+nnoremap <Space>` :NERDTreeToggle<CR>
 nnoremap md :InstantMarkdownPreview<CR>
 nnoremap tt :TableFormat<CR>
 
-inoremap jf <Esc>
-inoremap fj <Esc>
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap { {}<Esc>i
+inoremap < <><Esc>i
+inoremap `` <Esc>
 
 call plug#begin()
 
