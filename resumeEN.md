@@ -23,7 +23,7 @@ Frontend Frameworks: React (Proficient), Vue (Proficient), Flutter (Basic)
 Backend Frameworks: Laravel (Proficient), NestJS (Proficient)  
 Database: MySQL (Proficient)  
 Data Visualization: Three.js, D3.js, Pixi.js, Flame  
-Design Tools: Blender, Nomad, Caita
+Design Tools: Blender, Nomad, Caita, Creo, Procreate  
 
 ---
 

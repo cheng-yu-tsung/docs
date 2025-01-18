@@ -21,9 +21,9 @@
 程式語言： JavaScript (熟練)、TypeScript (熟練)、PHP (熟練)、Python (了解)  
 前端框架： React (熟練)、Vue (熟練)、Flutter (了解)  
 後端框架： Laravel (熟練)、NestJS (熟練)  
-資料庫： MySQL (熟練)  
-資料視覺化： Three.js、D3.js、Pixi.js、Flame  
-設計工具： Blender、Nomad、Caita、Creo  
+資料管理： MySQL (熟練)、Excel(熟練)  
+視覺表現： Three.js、D3.js、Pixi.js、Flame  
+設計工具： Blender、Nomad、Caita、Creo、Procreate  
 
 ## 工作經驗
 

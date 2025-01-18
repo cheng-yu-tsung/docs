@@ -1,4 +1,4 @@
-ccolor habamax
+color habamax
 syntax on
 
 set number
@@ -19,8 +19,8 @@ nnoremap ` .
 nnoremap - $
 nnoremap \\ o<Esc>
 nnoremap <BS> kdd
-nnoremap <Tab> >> 
-nnoremap <S-Tab> << 
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
 nnoremap <Space> <C-w>
 nnoremap <Space>n :vnew<CR>
 nnoremap <Space>` :NERDTreeToggle<CR>
