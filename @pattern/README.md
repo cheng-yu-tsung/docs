@@ -1,5 +1,60 @@
 # 設計模式
 
+## 物件導向(Object-Oriented Programming)
+
+### Class 三大特性
+
+| 特性 | 說明                               |
+| ---- | ---------------------------------- |
+| 封裝 | 類對其他物件只公開有限的接口       |
+| 繼承 | 類可以擴展，子類擁有父類相同的接口 |
+| 多形 | 接口一樣，可以有不同的行為         |
+
+### 關係
+
+| 關係 | 說明                                                    |
+| ---- | ------------------------------------------------------- |
+| 依賴 | 類 B 修改會影響類 A                                     |
+| 關聯 | 物件 A 使用物件 B                                       |
+| 聚合 | 物件 A 使用物件 B 且由 B 組成                           |
+| 組合 | 物件 A 使用物件 B 且由 B 組成並管理生命週期             |
+| 實現 | 物件 A 的接口由類 B 聲明，物件 A 可視為物件 B           |
+| 繼承 | 物件 A 的接口由類 B 聲明且對其擴展，物件 A 可視為物件 B |
+
+## GRASP 設立原則
+
+- 信息專家原則(information)
+  - 若一個類擁有完成這個角色所需要的資訊，則把這個角色分配給這個類
+- 建立者原則(creator)
+  - 誰應該負責產生某個類的實例
+- 低耦合原則(low coupling)
+  - 物件與物件間的相依性低，複用性就高
+- 高內聚原則(high cohesion)
+  - 物件內的功能是彼此緊密有關的，高度聚合的
+- 控制器原則(controller):
+  - 事件的邏輯處理委託給一個物件
+- 多態原則(polymorphism)
+  - 根據類型變化分配職責
+- 純虛構(pure fabrication)
+  - 只需要模擬屬性和行為，不需要準確的實現
+- 中介原則(indirect)
+  - 建立中間對象協調 2 個對象間的交互，避免高耦合度
+- 保護變量原則(protected variations)
+  - 保護物件，不受其他物件變化影響。
+
+## SOLID 設計原則
+
+- 單一責任原則(Single Responsibility Principle)
+  - 一個物件只對唯一一個角色負責
+- 開放封閉原則(Open Closed Principle)
+  - 物件應該對擴展開放，對修改封閉
+- 里氏替換原則(Liskov Substitution Principle)
+  - 子類物件必須能夠完全替換父類物件
+- 接口分離原則(Interface Segregation Principle)
+  - 縮小其接口，不必實例化不需要的接口
+- 依賴反向原則(Dependency Inversion Principle)
+  - 依賴於抽象接口，而不是實例
+
 ## 創建型模式(Creational)
 
 創建型模式提供創建物件的機制，能夠提供已有代碼的靈活性和可複用性
@@ -43,7 +98,7 @@
 | 模板模式   | Template | 定義一個邏輯的框架，允許子類在不修改結構下重寫邏輯的特定步驟   |
 | 訪問者模式 | Visitor  | 將邏輯與其作用物件隔離開來                                     |
 
-### 參考資料
+## 參考資料
 
 - [菜鳥教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
 - [圖說設計模式](https://design-patterns.readthedocs.io/zh-cn/latest/index.html)

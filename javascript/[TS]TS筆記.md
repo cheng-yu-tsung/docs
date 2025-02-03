@@ -1,34 +1,32 @@
-# Typescript  筆記
+# Typescript 筆記
 
 ## 常用語法
 
-### U  聯合類型 
+### U 聯合類型
 
-### in U  聯合類型內查詢 
+### in U 聯合類型內查詢
 
-### keyof T  物件鍵查詢，返回聯合類型U 
+### keyof T 物件鍵查詢，返回聯合類型 U
 
-### T[K] 物件值查詢 
+### T[K] 物件值查詢
 
 ### extends 物件繼承
 
 ## 內置函數
 
-### Exclude<T, U> 在T與U差集的類型
+### Exclude<T, U> 在 T 與 U 差集的類型
 
 ```ts
 type Excludek<T, U> = T extends U ? never : T;
-
 ```
 
-### Extract<T, U> 在T與U的交集的類型
+### Extract<T, U> 在 T 與 U 的交集的類型
 
 ```ts
 type Extract<T, U> = T extends U ? T : never;
-
 ```
 
-### Partial<T> 将T的所有屬性變成可選的。
+### Partial<T> 将 T 的所有屬性變成可選的。
 
 ```ts
 type Partial<T> = {
@@ -48,7 +46,7 @@ type Pick<T, K extends keyof T> = {
 
 ```ts
 type Omit<T, K extends any> = {
-  [P in Exclude<keyof T,K>]: T[P];
+  [P in Exclude<keyof T, K>]: T[P];
 };
 ```
 

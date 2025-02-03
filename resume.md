@@ -23,7 +23,7 @@
 後端框架： Laravel (熟練)、NestJS (熟練)  
 資料管理： MySQL (熟練)、Excel(熟練)  
 視覺表現： Three.js、D3.js、Pixi.js、Flame  
-設計工具： Blender、Nomad、Caita、Creo、Procreate  
+設計工具： Blender、Nomad、Caita、Creo、Procreate
 
 ## 工作經驗
 

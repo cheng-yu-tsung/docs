@@ -1,3 +1,5 @@
+```vimrc
+
 color habamax
 syntax on
 
@@ -13,7 +15,7 @@ set shiftwidth=2
 set clipboard=unnamed
 set showmatch
 
-cnoreabbrev Tab Tabularize 
+cnoreabbrev Tab Tabularize
 
 nnoremap ` .
 nnoremap - $
@@ -55,6 +57,7 @@ let g:instant_markdown_theme = 'dark'
 let g:instant_markdown_slow = 1
 let g:instant_markdown_autoscroll = 1
 let g:instant_markdown_autostart = 0
+let g:markdown_recommended_style = 0
 
 """""""""""""""""""""""
 "
@@ -71,3 +74,5 @@ let g:prettier#autoformat = 1
 let g:vim_markdown_toc_autofit = 1
 let g:vim_markdown_borderless_table = 1
 let g:vim_markdown_folding_disabled = 1
+
+```
