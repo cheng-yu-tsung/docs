@@ -68,16 +68,16 @@
 
 ## 個人專案
 
-| 分類                               | 應用網站         | 後臺網站         | 應用程式       |
-| ---------------------------------- | ---------------- | ---------------- | -------------- |
-| 類型                               | SPA              | SSR              | Hybrid App     |
-| 技術                               | Next / React     | Laravel / Vue    | Flutter        |
-| 狀態管理                           | Zubstand         | Pinia            | Riverpod       |
-| 樣式                               | MUI              | Tailwind         | Material3      |
-| 手機板                             | PWA              | RWD              | Cross-Platform |
-| 視覺工具                           | Three            | D3 / Pixi        | Flame          |
-| 機器學習                           | MediaPipe        | TensorFlow       | ---            |
-| ![頭像](/icon.ico "logo") 頭像功能 | 當成搖桿 🕹️ 使用 | 當成側欄 📑 開關 | ---            |
+| 分類     | 應用網站         | 後臺網站         | 應用程式       |
+| -------- | ---------------- | ---------------- | -------------- |
+| 類型     | SPA              | SSR              | Hybrid App     |
+| 技術     | Next / React     | Laravel / Vue    | Flutter        |
+| 狀態管理 | Zubstand         | Pinia            | Riverpod       |
+| 樣式     | MUI              | Tailwind         | Material3      |
+| 手機板   | PWA              | RWD              | Cross-Platform |
+| 視覺工具 | Three            | D3 / Pixi        | Flame          |
+| 機器學習 | MediaPipe        | TensorFlow       | ---            |
+| 頭像功能 | 當成搖桿 🕹️ 使用 | 當成側欄 📑 開關 | ---            |
 
 ## 教育背景
 

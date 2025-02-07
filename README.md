@@ -92,8 +92,6 @@
 - [@pattern][@pattern]
 - [blender][blender]
 - [javascript][javascript]
-- [javascript][javascript]
-- [javascript][javascript]
 - [laravel][laravel]
 - [react][react]
 - [vue][vue]
