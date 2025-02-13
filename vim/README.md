@@ -1,3 +1,12 @@
+# vim
+
+## 筆記
+
+- [[快捷鍵]速查表](./docs?folder=vim&file=[快捷鍵]速查表)
+- [vim](./docs?folder=vim&file=README)
+
+## 設定
+
 ```vimrc
 
 color habamax

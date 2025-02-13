@@ -88,24 +88,13 @@
 
 記錄學習中的筆記
 
-- [@leetcode][@leetcode]
-- [@pattern][@pattern]
-- [blender][blender]
-- [javascript][javascript]
-- [laravel][laravel]
-- [react][react]
-- [vue][vue]
-- [vim][vim]
-- [flutter][flutter]
-- [健身][wortkout]
-
-[@leetcode]: ./docs/@leetcode/README
-[@pattern]: ./docs/@pattern/README
-[blender]: ./docs/blender/README
-[javascript]: ./docs/javascript/README
-[laravel]: ./docs/laravel/README
-[react]: ./docs/react/README
-[vue]: ./docs/vue/README
-[vim]: ./docs/vim/README
-[flutter]: ./docs/flutter/README
-[wortkout]: ./docs/wortkout/README
+- [@leetcode](./docs?folder=@leetcode&file=README)
+- [@pattern](./docs?folder=@pattern&file=README)
+- [blender](./docs?folder=blender&file=README)
+- [javascript](./docs?folder=javascript&file=README)
+- [laravel](./docs?folder=laravel&file=README)
+- [react](./docs?folder=react&file=README)
+- [vue](./docs?folder=vue&file=README)
+- [vim](./docs?folder=vim&file=README)
+- [flutter](./docs?folder=flutter&file=README)
+- [workout](./docs?folder=workout&file=README)
