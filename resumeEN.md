@@ -31,7 +31,7 @@ Design Tools: Blender, Nomad, Caita, Creo, Procreate
 
 ### Frontend Engineer
 
-Softstar Entertainment Inc. | 2023/04 - 2025/03
+InterServ Entertainment Inc. | 2023/04 - 2025/03
 
 - Technical and architectural planning:
   - Led a new game backend project, including technical selection and overall architecture design.
